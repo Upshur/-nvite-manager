@@ -4,8 +4,8 @@ const Discord = require("discord.js");
 const ayarlar = require("../ayarlar.json");
 var prefix = ayarlar.prefix;
 
-module.exports = async client => {
-  var oyun = ["Davet Community®", "Versiyon v0.2", "Rol Koruma Sistemi!"];
+module.exports = async client => {//> Remix proje
+  var oyun = ["Rol Koruma Sistemi!"];
 
   setInterval(async () => {
     var random = Math.floor(Math.random() * (oyun.length - 0 + 1) + 0);
