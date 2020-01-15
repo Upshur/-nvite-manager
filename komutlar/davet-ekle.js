@@ -36,7 +36,7 @@ let m = args.slice(1).join(" ")
     .setDescription(`${u} Adlı şahsa; ${m} davet eklendi!`);
   message.channel.send(embed);
 
-  db.add(`davet_${message.author.id}_${message.guild.id}`, +m);
+  db.add(`davet_${u.id}_${message.guild.id}`, +m);
 };
 
 module.exports.conf = {

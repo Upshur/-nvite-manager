@@ -35,7 +35,7 @@ let m = args.slice(1).join(" ")
   .setFooter(bot.user.username, bot.user.avatarURL)
   message.channel.send(embed);
 
-  db.add(`davet_${message.author.id}_${message.guild.id}`, -m);
+  db.add(`davet_${u.id}_${message.guild.id}`, -m);
 };
 
 module.exports.conf = {

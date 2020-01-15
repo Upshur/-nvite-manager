@@ -42,7 +42,7 @@ module.exports.run = async (bot, message, args) => {
           `İşlem onaylandı! ${u} adlı şahsın davetleri sıfırlandı!`
         );
 
-        db.delete(`davet_${message.author.id}_${message.guild.id}`);
+        db.delete(`davet_${u.id}_${message.guild.id}`);
       }
     });
   });
