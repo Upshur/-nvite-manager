@@ -7,13 +7,13 @@ exports.run = (client, message) => {
   const embed = new Discord.RichEmbed()
   .setTitle(`${client.user.username}`)
     .setAuthor(message.author.username, message.author.avatarURL)
-  .setColor("BLUE")
+  .setColor("BLACK")
   .setFooter(`© ${client.user.username}` , client.user.avatarURL)
   .setThumbnail("")
-  .setDescription('İnviteManager Yerine Bir Türk Bota Destek Olun !)
+  .setDescription("İnviteManager Yerine Bir Türk Bota Destek Olun !")
   .setTimestamp()
   .addField("Davet Linki.", `[Destek Sunucusu](https://discord.gg/jCyVavu)`, false)
-  .setURL('https://discordapp.com/oauth2/authorize?client_id=677909837220151309&scope=bot&permissions=2146958847')
+  .setURL('https://discordapp.com/oauth2/authorize?client_id=678164870671237131&scope=bot&permissions=2146958847')
   	.setThumbnail(client.user.avatarURL);
 
   message.channel.send({embed});
