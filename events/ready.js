@@ -14,7 +14,7 @@ module.exports = async client => {
   
   console.log(`BOT: ${client.user.username} ismi ile giriş yapıldı!`);
   client.user.setStatus("oline");
-  client.user.setGame(`🔥 !Yardım 🔥 !Davet 🔥 12 Sunucu 🔥  2843 Kullanıcı 🔥`);
+  client.user.setGame(`🔥 !Yardım 🔥 !Davet 🔥 12 Sunucu 🔥  26843 Kullanıcı 🔥`);
   console.log(`BOT: Şu an ` + client.channels.size + ` adet kanala, ` + client.guilds.size + ` adet sunucuya ve ` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullanıcıya hizmet veriliyor!`);
   require("../util/dashboard.js")(client);
 };
