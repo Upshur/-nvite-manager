@@ -12,7 +12,7 @@ exports.run = (client, message) => {
   .setThumbnail("")
   .setDescription("İnviteManager Yerine Bir Türk Bota Destek Olun !")
   .setTimestamp()
-  .addField("Davet Linki.", `[Destek Sunucusu](https://discord.gg/jCyVavu)`, false)
+  .addField("Davet Linki.", `[Destek Sunucusu](https://discord.gg/rQbN46w)`, false)
   .setURL('https://discordapp.com/oauth2/authorize?client_id=678164870671237131&scope=bot&permissions=2146958847')
   	.setThumbnail(client.user.avatarURL);
 
